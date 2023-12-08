@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 
@@ -13,6 +12,6 @@ melb_previsoes[['Price', 'PredictedPrice']]
 st.write('')
 st.write('')
 st.write('Podemos avaliar o modelo com as seguintes métricas:')
-st.write('MAE = ', melb_previsoes.iloc[0]['MAE'])
-st.write('MSE = ', melb_previsoes.iloc[0]['MSE'])
-st.write('RMSE = ', melb_previsoes.iloc[0]['RMSE'])
+st.write('MAE (Erro Médio Absoluto) = ', melb_previsoes.iloc[0]['MAE'])
+st.write('MSE (Erro Quadrático Médio) = ', melb_previsoes.iloc[0]['MSE'])
+st.write('RMSE (Raiz do Erro Quadrático Médio) = ', melb_previsoes.iloc[0]['RMSE'])
