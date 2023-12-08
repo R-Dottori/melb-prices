@@ -3,4 +3,4 @@ Projeto de ciência de dados analisando e prevendo preços de imóveis em Melbou
 
 Acesse o aplicativo interativo em:
 
-https://melb-prices-w6zo5vf3mhhkhgc92rdphb.streamlit.app/
+https://melb-prices-hnkjt7rz9qkbawcc56ov4w.streamlit.app/
